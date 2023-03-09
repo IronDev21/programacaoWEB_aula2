@@ -3,14 +3,13 @@ body{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
 
-
-
 .sacola{
     background-image: url(../img/sacola.png);
     background-repeat: no-repeat;
     background-position: top right;
     font-size: 14px;
     padding-right: 35px;
+    padding-top: 8px;
     text-align: right;
     width: 140px;
 }
@@ -24,3 +23,12 @@ body{
     color: #036
 }
 
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px; 
+}
+
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
